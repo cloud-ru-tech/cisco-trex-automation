@@ -117,7 +117,7 @@ def parse_args():
                         default=100,
                         type=int)
     parser.add_argument('--bottom-multi',
-                        help='Верхняя граница множителя. Множитель управляет количеством новых TCP соединений в секунду',
+                        help='Нижняя граница множителя. Множитель управляет количеством новых TCP соединений в секунду',
                         default=100,
                         type=int)
     parser.add_argument('--step-multi',
